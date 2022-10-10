@@ -5,7 +5,7 @@ docker run hello-world
 :: Unable to find image 'hello-world:latest' locally
 :: latest: Pulling from library/hello-world
 :: 1b930d010525: Pull complete                                                                                          
-::   Digest: sha256:4fe721ccc2e8dc7362278a29dc660d833570ec2682f4e4194f4ee23e415e1064
+:: Digest: sha256:4fe721ccc2e8dc7362278a29dc660d833570ec2682f4e4194f4ee23e415e1064
 :: Status: Downloaded newer image for hello-world:latest
 :: 
 :: Hello from Docker!

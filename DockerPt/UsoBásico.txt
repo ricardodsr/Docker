@@ -1,0 +1,11 @@
+## Inicio de verificação
+    *docker container run hello-world
+
+## Instalação cointainer debian
+docker container run debian bash --version
+    *GNU bash, version 4.3.30(1)-release (x86_64-pc-linux-gnu)
+
+## Modo interativo
+docker container run -it debian bash
+touch /curso-docker.txt
+    *

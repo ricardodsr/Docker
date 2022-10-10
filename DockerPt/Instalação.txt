@@ -1,0 +1,9 @@
+Docker hub -> Imagens de docker ja prefeitas para utilização
+https://hub.docker.com/
+
+
+Para versoes windows < 10 ultima versao :
+    *docker toolbox -> download
+
+Para linux
+https://docs.docker.com/engine/install/
