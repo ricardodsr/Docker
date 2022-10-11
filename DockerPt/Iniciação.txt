@@ -36,3 +36,29 @@ também algumas características próprias.
  Uma imagem Docker é a materialização de um modelo de um sistema de arquivos, modelo este
 produzido através de um processo chamado build.
 
+
+Um container normalmente roda com o máximo de isolamento possível do host, este isolamento é
+possível através do Docker Engine e diversas características provídas pelo kernel.
+Mas normalmente não queremos um isolamento total, e sim um isolamento controlado, em que os
+recursos que o container terá acesso são explicitamente indicados.
+Principais recursos de controle do isolamento
+• Mapeamento de portas
+• Mapeamento de volumes
+• Copia de arquivos para o container ou a partir do container
+• Comunicação entre os containers
+
+
+Agora que já vimos diversos comandos, incluindo tanto a sintaxe nova quanto a velha, podemos
+entender os principais motivos para esta mudança e a preferência pela nova sintaxe:
+• Melhor utilização de comandos similares em contextos diferentes:
+    ◦ docker container ls
+    ◦ docker image ls
+    ◦ docker volume ls
+• Maior clareza nos comandos:
+    ◦ docker container rm ao invés de docker rm
+    ◦ docker image rm ao inveś de docker rmi
+    ◦ docker image ls ao invés de docker images
+• Mais simplicidade para criação de novos subcomandos
+• Segregação da documentação e helps por contexto
+
+
